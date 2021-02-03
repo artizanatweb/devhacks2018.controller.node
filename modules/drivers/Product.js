@@ -33,6 +33,10 @@ class Product {
             if (!(tag === this.tag)) {
                 return;
             }
+            console.log(`[PRODUCT] I am product!!!`);
+            console.log(this.tag);
+            console.log(this.name);
+            console.log(this.id);
 
             if ("on" === action) {
                 this.descend();

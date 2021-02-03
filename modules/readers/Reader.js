@@ -55,6 +55,11 @@ class Reader {
             let tag = jsonData.tag;
             tag = tag.replace(/[^0-9.]/g, "");
 
+            if (tag != 0 && !(this.tag === tag)) {
+                this.tag = tag;
+                return;
+            }
+
             this.setTag(tag);
         });
     }

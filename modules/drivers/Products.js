@@ -25,6 +25,10 @@ class Products extends DataBase
 
         this.dbProducts.forEach((productRow, index) => {
             let product = new Product(productRow);
+            if (this.products.indexOf(product) > -1) {
+                console.log("MATA MARE mARE MARE AMNHGOKF");
+                return;
+            }
             this.products.push(product);
         });
     }
