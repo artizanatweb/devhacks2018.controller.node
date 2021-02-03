@@ -1,0 +1,18 @@
+HW Devices:
+Product detector:
+- RFID - 1 board, 2 readers SPI, 1 LEDs
+- 
+
+Presence detector:
+- PIR - 1 board, 1 PIR
+- request - unit_id, value: on/off
+
+
+Dupa ce a fost detectata o persoana la raft, porneste filmuletul de prezentare pentru produsul ce se doreste a fi impins.
+
+Ridicarea unui produs de pe reader declanseaza 
+
+PIR Message:
+unit_id = 1, 
+value = on/off
+

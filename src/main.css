@@ -1,0 +1,68 @@
+body {
+    background-color: #d4d4d4;
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active,
+input:after,
+input:invalid,
+input:empty,
+input:required,
+a:after,
+a:invalid,
+a:empty,
+a:required,
+a:hover,
+a:active,
+a:focus
+{
+    outline: 0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.hidden
+{
+    display: none;
+}
+
+#app {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: url("./../assets/images/logo.png") no-repeat center center  #d4d4d4;
+    overflow: hidden;
+}
+
+#cart {
+    position: absolute;
+    top: 50px;
+    z-index: 3;
+    display: none;
+    right: 20px;
+}
+
+#video-support {
+    position: relative;
+    bottom: 0;
+    z-index: 2;
+    opacity: 0;
+    transition: .2s ease-in all;
+}
+
+#video-support.show {
+    opacity: 1;
+}

@@ -1,0 +1,16 @@
+config.json
+node_modules/*
+nbproject/*
+package-lock.json
+temp/*
+/.idea
+npm-debug.log
+*.idea*
+*.iml
+.idea
+yarn.lock
+*.DS_Store
+.project
+*.psd
+.vscode
+.vscode/*

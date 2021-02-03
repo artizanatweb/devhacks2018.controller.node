@@ -1,0 +1,18 @@
+{
+    "deviceName": "smartshelf_devhacks",
+    "baudRate": 9600,
+    "ttyRfid": "/dev/ttyACM*",
+    "ttySensor": "/dev/ttyUSB*",
+    "ipServer": "192.168.18.146",
+    "portServer": "5000",
+    "distanceTrigger": 500,
+    "database": {
+        "client": "mysql",
+        "connection": {
+            "host": "127.0.0.1",
+            "user": "__db-username__",
+            "password": "__db-password__",
+            "database": "metro_devhacks"
+        }
+    }
+}

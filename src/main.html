@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DevHacks SmartShelf</title>
+    <link rel="stylesheet" href="./../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div id="app" data-bind="style: { width: width() + 'px', height: height() + 'px' }">
+
+        <div id="cart"></div>
+
+        <div id="video-support" data-bind="attr: { 'class': playerVideo.className() }">
+            <video data-bind="width: width(), height: height() " id="videoPlayer">
+                <source src="./../assets/videos/Alevia.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
+
+    <script>
+        require('./main');
+    </script>
+</body>
+</html>
