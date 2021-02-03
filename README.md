@@ -3,4 +3,9 @@
 <h1>Electron App</h1>
 <p>Controller for hardware sensors and display</p>
 <br />
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DVBhgnoPPOg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div>
+    <p>Demo from the event:</p>
+    <a href="https://youtu.be/DVBhgnoPPOg" target="_blank">
+        <img src="https://www.artizanatweb.ro/github/bg_devhacks_2018_small.jpg" alt="Video from the event">
+    </a>
+</div>
